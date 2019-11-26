@@ -18,7 +18,7 @@ body {
 .enter, .enter2, .enter3, .enter4, .enter5, .enter6, .enter7, .enter8, .enter9, .enter10, .enter11, .enter14, .enter12, .enter13, .enter15, .enter16, .enter17, .enter18, .enter19, .enter20, .enter21, .enter22 {
 	display:none;
 }
-.blank, .should, .pay, .lets, .final2 {
+.blank, .should, .pay, .lets, {
 	width:100%;
 	height:100%;
 	display:flex;
@@ -88,5 +88,14 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	background:orange;
+	color:black;
+}
+.final2 {
+	width:100%;
+	height:100%;
+	display:block;
+	justify-content: center;
+	flex-direction: column;
+	background:white;
 	color:black;
 }
